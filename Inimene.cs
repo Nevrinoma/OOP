@@ -55,6 +55,14 @@ namespace inimene
             }
             get { return eesnimi; }
         }
+        public string Perenimi
+        {
+            set
+            {
+                if (perenimi == null) perenimi = value;
+            }
+            get { return perenimi; }
+        }
         public int Vanus
         {
             set

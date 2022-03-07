@@ -18,11 +18,11 @@ namespace inimene
             pop.Info();
             Inimene naine = new Inimene();
             naine.Palk = 1000;
-            
-            
-            
-            
-            
+
+            Console.WriteLine($"Minu nimi on {pop.Eesnimi} {pop.Perenimi},ma olen {pop.Sugu}, ma õpin {pop.Ruhm}, minu kesk hinne on {pop.Hinne},ma {pop.Toetus}");
+
+
+
             /*
             Inimene human = new Inimene("Tarmo", Emakeel.eesti, Sugu.mees);
             human.Tervitame();
@@ -51,6 +51,7 @@ namespace inimene
             //Inimene naine = new Inimene("Mischel", Emakeel.rotsi);
             //naine.Tervitame();
             //Console.ReadKey(true);
+            Console.ReadLine();
         }
     }
     

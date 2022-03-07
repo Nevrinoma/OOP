@@ -49,7 +49,7 @@ namespace inimene
             }
         }
 
-        public int Perenimi { get; private set; }
+        
         public string V { get; }
 
         public void Info()
@@ -58,15 +58,15 @@ namespace inimene
             Console.WriteLine("Tere! Minu nimi on {0} {1}",Eesnimi,Perenimi);
             if (Toetus==true)
             {
-                t = "Saan toestust kätte :3"; 
+                t = "saan toestust kätte :3"; 
             }
             else if (Toetus==false&& hinne>0)
             {
-                t = "Ei saa toetust :/";
+                t = "ei saa toetust :/";
             }
             else
             {
-                t = "Andmed hinnetest puuduvad!";
+                t = "andmed hinnetest puuduvad!";
             }
         }
 
